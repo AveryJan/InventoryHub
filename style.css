@@ -1,0 +1,20 @@
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#182739;background:#f3f6fb}
+*{box-sizing:border-box}body{margin:0}.shell{max-width:1190px;margin:auto;padding:40px 24px}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}
+.eyebrow{font-size:11px;font-weight:800;letter-spacing:.18em;color:#4d65aa}h1{font-size:40px;letter-spacing:-.04em;margin:6px 0}h2{font-size:19px;margin:0}
+p{color:#647287}.pill{border-radius:30px;background:#e2f5ed;color:#157a57;padding:10px 16px;font-weight:650}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:22px}
+.stat,.panel{background:white;border:1px solid #e1e6ee;border-radius:16px;box-shadow:0 4px 25px #1c35530b}
+.stat{padding:22px}.stat span{display:block;color:#65738b;font-size:13px;margin-bottom:9px}.stat strong{font-size:30px}
+.layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(280px,1fr);gap:20px;align-items:start}
+.panel{padding:24px;min-width:0}.panel-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+input{padding:11px 12px;border:1px solid #ccd6e2;border-radius:9px;font:inherit;width:100%;background:#fff}
+#search{max-width:220px}.table-scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;margin-top:15px}
+th{text-align:left;color:#718095;font-size:11px;letter-spacing:.05em;text-transform:uppercase}th,td{border-bottom:1px solid #ecf0f5;padding:14px 9px;white-space:nowrap}
+td:nth-child(2){font-weight:650}button{border:1px solid #cfd7e4;border-radius:8px;background:white;padding:9px 12px;cursor:pointer;font:inherit;font-size:13px}
+button:hover{background:#f0f4fb}button:disabled{opacity:.4;cursor:default}.primary{background:#315bb5;color:white;border:0;padding:12px}.primary:hover{background:#244b9b}
+.form-panel form{display:grid;gap:17px;margin-top:20px}label{display:grid;gap:7px;font-size:13px;font-weight:650}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pager{display:flex;justify-content:space-between;align-items:center;margin-top:20px;font-size:12px;color:#65738b}
+#notice{min-height:23px;font-size:13px}#notice.error{color:#b23143}#notice.ok{color:#16825a}
+footer{color:#8a96a7;text-align:center;font-size:12px;margin-top:30px}
+@media(max-width:850px){.layout{grid-template-columns:1fr}}@media(max-width:500px){.stats{grid-template-columns:1fr 1fr}.header{align-items:start}.pill{font-size:11px}h1{font-size:32px}.panel-heading{display:block}#search{max-width:none;margin-top:14px}}
